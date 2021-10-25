@@ -1,0 +1,5 @@
+import datetime
+while True:
+    time = datetime.datetime.now().strftime('%I:%M %p')
+    print(time)
+    print('The current time is '+time)
